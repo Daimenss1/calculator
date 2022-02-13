@@ -18,7 +18,7 @@ public class Controller {
     }
     @GetMapping("/greeting")
     public String greeting() {
-        return "Welcome to the calculator";
+        return "Добро пожаловать в калькулятор";
     }
 
     @GetMapping("/plus")
